@@ -8,6 +8,13 @@ const hours = document.querySelector('[data-hours]');
 const minutes = document.querySelector('[data-minutes]');
 const seconds = document.querySelector('[data-seconds]');
 const btnStart = document.querySelector('[data-start]');
+const timer = document.querySelector('.timer');
+
+timer.style.height = '20px';
+timer.style.display = 'grid';
+timer.style.gridTemplateColumns = '50px 50px 70px 70px';
+timer.style.textAlign = 'center';
+timer.style.justifyContent = 'center';
 
 let selectedDate = null;
 let currentDate = null;
